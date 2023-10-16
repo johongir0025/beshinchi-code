@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 40vh;
+    /* background-color: blue; */
+}
+.footer{
+    width: 100%;
+    height: 60vh;
+     border: 1px solid white;
+    background-color: #130b5C;
+}
+
+.footer_top{
+    width: 100%;
+    height: 100px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.footer_logo{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer_top ul {
+    list-style: none;
+    display: flex;
+      border-bottom: 2px solid wheat; 
+    justify-content: space-between;
+    width: 30%;
+}
+.footer_top ul li a{
+    color: wheat;
+    border: 2px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footer_main{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content:space-between ;
+}
+
+.conpany,
+.services,
+.account,
+.cources{
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.subscribe{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid red;   */
+}
+.footer_main h1{
+    color: white;
+    margin: 10px;
+}
+.footer_main li{
+    list-style: none;
+}
+.footer_main li a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    display: flex;
+}
